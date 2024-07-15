@@ -10,12 +10,12 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Document(collection = "chat")
-public class Chat {
+public class Comment {
     @Id
     private String id;
     private String message;
     private String sender;
     private String receiver;
-    private Integer chatId;
+    private Integer commentId;
     private LocalDateTime createdAt;
 }
