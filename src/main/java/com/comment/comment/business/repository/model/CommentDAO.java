@@ -9,8 +9,9 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-@Document(collection = "chat")
-public class Comment {
+@Document(collection = "comment")
+public class CommentDAO {
+
     @Id
     private String id;
     private String message;
